@@ -482,7 +482,7 @@ bot.hears('📨 Information',async (ctx) => {
 
 
 bot.hears('📘 Submit my details', ctx => {
-  var kkc = `🔹Join *`+airdropName+`* Telegram [Channel](https://t.me/MetaBlackEth) ,[Channel 2](https://t.me/AirdropMinions) [Group](https://t.me/PokemonAma) ,[Group 2](https://t.me/cryp_toclub) , [Promoter](https://t.me/AirdropFact)
+  var kkc = `🔹Join *`+airdropName+`* Telegram [Channel](https://t.me/MetaBlackEth) ,[Channel 2](https://t.me/AirdropMinions), [Group](https://t.me/PokemonAma) ,[Group 2](https://t.me/cryp_toclub) , [Promoter](https://t.me/AirdropFact)
 
 Click *"✅ Done"* After Joining`
   ctx.replyWithMarkdown(kkc, { disable_web_page_preview: true, reply_markup: { keyboard: [['✅ Done']], resize_keyboard: true } })
